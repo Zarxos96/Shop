@@ -1,0 +1,184 @@
+/************************ STYLE GENERAUX *************************************/
+.legend {
+	font-size:75%;
+	font-style:italic;
+}
+
+.txtItalic {
+	font-style:italic;
+}	
+	
+.centrer {
+	text-align:center;
+}
+
+.txtRouge {
+	color:red;
+}
+
+.txtBlue {
+	color:blue;
+}
+
+.txtGreen {
+	color:green;
+}
+
+.txtGras {
+	font-weight:bold;
+}
+
+.right {
+	float:right;
+}
+
+.up {
+	vertical-align:top;
+}
+
+.bordure_gauche {
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:orange;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+/************************** accueil.php *************************/
+#table_accueil {
+	width:800px;
+}
+
+#table_accueil td {
+	padding:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:30%;
+	padding:15px;
+}
+
+/************************** GABARIT ****************************/
+html{
+	font-family:'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+	font-size:20px;
+	
+}
+body{
+background-image: url("background.png");
+background-attachment: fixed;
+
+
+}
+#art{
+	font-size:20px;
+	text-align:center;
+	text-shadow:3px 2px 2px grey;
+	border:inset 0.2em  #994f00;
+}
+
+#acceuil{
+	text-align:center;
+	font-size:35px;
+	text-shadow:3px 2px 2px grey;
+}
+#wrapper {
+	width:1050px;
+	margin: 0 auto;
+	text-align:center;	
+}
+#nom{
+	font-size:150%;
+}
+#enseigne {
+	text-shadow:3px 2px 2px grey;
+	margin-top:1%;
+	text-align:center;
+	color: #331a00;
+	font-weight:bold;
+	letter-spacing:5px;
+	font-size:180%;
+	padding:4px;
+	margin-bottom:1%;
+	border:inset 0.2em  #994f00;
+}
+#accueil {
+	text-align:right;
+	margin-right:15px;
+	font-size:120%;
+	color:purple;
+}
+
+footer {
+	margin:0 auto;
+	width:50%;
+	clear:both;
+	text-align:center;
+	color:#555;
+	font-size:75%;
+	padding-top:15px;	
+}
+
+
+#main {
+	width:80%;	
+	float:left;
+	text-align:justify;
+	margin-top:-2%;
+	
+}
+
+
+#menu a{
+	color:#663300;
+	text-decoration:none;
+	font-size:90%;
+}
+
+#menu a:hover{
+	background-color:orange;
+	text-decoration:none;
+	color:#663300;
+
+}
+
+#menu {
+	float:left;
+	width:180px;
+	text-align:left;
+	padding-left:1%;
+	padding-bottom:4%;
+	font-size:110%;
+	color:#663300;
+	text-shadow:3px 2px 2px grey;
+}
+
+#menu li {
+	list-style:none;
+}
+
+#menu a  {
+	text-decoration:none;
+	color:#663300;
+}
+
+#menu a:hover{
+	text-decoration:none;
+	background-color:#e67700;
+	color:#663300;
+}
+
+#contenu {
+	float:right;
+	margin-top:1%;
+	padding-top:3%;
+	clear:none;
+	margin-left:0px;
+	width:100%;
+	border-top:solid orange 2px;
+	border-bottom:solid orange 2px;
+}
+.titre_tableaux
+{
+	font-size:20px;
+}
